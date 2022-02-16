@@ -70,7 +70,7 @@ missingVals <- sum(is.na(data))
 
 
 
-# Replace each missing value with the mean value of its 5-minute interval
+## Replace each missing value with the mean value of its 5-minute interval
 
 ```r
 replacewithmean <- function(x) replace(x, is.na(x), mean(x, na.rm=TRUE))
