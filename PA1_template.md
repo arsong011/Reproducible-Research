@@ -11,10 +11,10 @@ output: html_document
 ```r
 
 fileurl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
-zipfile <- "C:/Users/SNUH/Documents/SNUH/coursera/DataScience/Reproducible Research/data.zip"
+zipfile <- "../Reproducible Research/data.zip"
 
-filedir <- "C:/Users/SNUH/Documents/SNUH/coursera/DataScience/Reproducible Research"
-unzip_path <- "C:/Users/SNUH/Documents/SNUH/coursera/DataScience/Reproducible Research/data"
+filedir <- "../Reproducible Research"
+unzip_path <- "../Reproducible Research/data"
 
 if (!file.exists(filedir)){
   dir.create(filedir)
