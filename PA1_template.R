@@ -6,7 +6,7 @@ library(ggplot2)
 fileurl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
 zipfile <- "../Reproducible Research/data.zip"
 
-filedir <- "C:/Users/SNUH/Documents/SNUH/coursera/DataScience/Reproducible Research"
+filedir <- "../Reproducible Research"
 unzip_path <- "../Reproducible Research/data"
 
 if (!file.exists(filedir)){
